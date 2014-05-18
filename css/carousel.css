@@ -47,7 +47,10 @@ body {
   height: 500px;
 }
 
-
+.carousel-control{
+  font-size: 130px;
+  padding-top: 120px;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
