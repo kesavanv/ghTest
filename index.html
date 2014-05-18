@@ -14,6 +14,7 @@
 	      <script src="js/html5shiv.js"></script>
 	      <script src="js/respond.min.js"></script>
 	    <![endif]-->
+
 	</head>
 	<body data-spy="scroll" data-target=".navbar">
 
@@ -105,7 +106,7 @@
 
 			<div class="row section contactSection" id="contact">
 
-				<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.co.in/maps?sll=13.034079800000004,80.2069211&amp;sspn=0.5138921819667134,0.7034519311575993&amp;t=m&amp;q=google+map+screen+singapore&amp;ie=UTF8&amp;hq=screen&amp;hnear=Singapore&amp;ll=1.318584,103.845567&amp;spn=0.552758,0.737367&amp;output=embed"></iframe>
+				<div id="map_canvas"></div>
 
 				<div class="vcard">
 					<h3>Global Trinity Engineering Consultants</h3>
@@ -549,8 +550,11 @@
 	    <!-- Include all compiled plugins (below), or include individual files as needed -->
 	    <script src="js/bootstrap.min.js"></script>
 	    <script type="text/javascript" src="js/skrollr.min.js"></script>
+	    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 		<script type="text/javascript">
 		    skrollr.init();
+
+		      
 		</script>
 	    <!-- Custom script -->
 	    <script src="js/custom.js"></script>
