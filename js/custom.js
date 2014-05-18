@@ -4,6 +4,12 @@ $(function() {
 		$(currentModal).modal('hide');
     });
 
+    $('.modal').on('show.bs.modal', function (e) {
+	  	$('.carousel').carousel({
+			interval: 2000
+		});
+	});
+
     function initMap() {
       var singapore = new google.maps.LatLng(1.336445,103.700715);
       var mapOptions = {
