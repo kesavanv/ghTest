@@ -64,6 +64,11 @@ body {
 	background-color: #efefef;
 	border-top: 1px solid #ccc;
 }
+.servicesSection .description {
+	font-size: 15px;
+	font-style: italic;
+	margin-left: 15px;
+}
 
 .contactSection{
 	background-color: #444;
